@@ -1,0 +1,8 @@
+*{
+  margin:0;
+  
+}
+
+.app{
+  background-color: #111; /* because of this banner big image is seen fully */
+}
