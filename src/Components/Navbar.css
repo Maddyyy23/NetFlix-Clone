@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    justify-content: space-between; /*make space betwn netlix logo and avatar logo*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav__black{
+    /*if in function of banner.js show comes show nav black */
+    background-color: #111;
+}
+
+.nav__logo{
+    object-fit: contain;
+    width: 90px;
+    height:30px;
+    position : fixed;
+    left:20px;
+
+}
+
+.nav__avatar{
+    height:30px;
+    object-fit: contain;
+    position: fixed;
+    right:20px;
+}
